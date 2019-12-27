@@ -5,23 +5,30 @@
 `Request:`
 
 ### POST http://localhost:4567/users - create user
+
+```javascript
 {
     "id": "1012",
     "email": "your-email@your-domain.com",
     "firstName": "Mac",
     "lastName": "Mason1"
 }
+```
+
 `Response:`
 
+```javascript
 {
     "status":"SUCCESS"
 }
+```
 
 `Request:`
 
 ### GET http://localhost:4567/users - get all users
 `Response:`
 
+```javascript
 {
     "status":"SUCCESS",
     "data":[
@@ -39,12 +46,14 @@
         }
     ]
 }
+```
 
 `Request:`
 
 ### GET http://localhost:4567/users/1012 - get user by id
 `Response:`
 
+```javascript
 {
     "status":"SUCCESS",
     "data":{
@@ -54,15 +63,21 @@
         "email":"your-email@your-domain.com"
     }
 }
+```
 
 `Request:`
 
 ### PUT http://localhost:4567/users/1012 - change user by id (In this example, change the lastName)
+
+```javascript
 {
     "lastName": "Mason"
 }
+```
+
 `Response:`
 
+```javascript
 {
     "status":"SUCCESS",
     "data":{
@@ -72,25 +87,30 @@
         "email":"your-email@your-domain.com"
     }
 }
+```
 
 `Request:`
 
 ### DELETE http://localhost:4567/users/1012 - delete user by id
 `Response:`
 
+```javascript
 {
     "status":"SUCCESS",
     "message":"user deleted"
 }
+```
 
 `Request:`
 
 ### OPTIONS http://localhost:4567/users/1012 - check that user exists
 `Response:`
 
+```javascript
 {
     "status":"SUCCESS",
     "message":"User exists"
 }
+```
 </details>
 
