@@ -2,6 +2,7 @@
 Наш REST API передает Json-objects, c помощью фреймворка Spark. БД на стороне сервера выступает HashMap, которая
 работает в Runtime.
 <details><summary>Примеры запросов</summary>
+
 `Request:`
 
 ### POST http://localhost:4567/users - create user
