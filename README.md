@@ -4,7 +4,7 @@
 <details><summary>Примеры запросов</summary>
 `Request:`
 
-###POST http://localhost:4567/users - create user
+### POST http://localhost:4567/users - create user
 {
     "id": "1012",
     "email": "your-email@your-domain.com",
@@ -19,7 +19,7 @@
 
 `Request:`
 
-###GET http://localhost:4567/users - get all users
+### GET http://localhost:4567/users - get all users
 `Response:`
 
 {
@@ -42,7 +42,7 @@
 
 `Request:`
 
-###GET http://localhost:4567/users/1012 - get user by id
+### GET http://localhost:4567/users/1012 - get user by id
 `Response:`
 
 {
@@ -57,7 +57,7 @@
 
 `Request:`
 
-###PUT http://localhost:4567/users/1012 - change user by id (In this example, change the lastName)
+### PUT http://localhost:4567/users/1012 - change user by id (In this example, change the lastName)
 {
     "lastName": "Mason"
 }
@@ -75,7 +75,7 @@
 
 `Request:`
 
-###DELETE http://localhost:4567/users/1012 - delete user by id
+### DELETE http://localhost:4567/users/1012 - delete user by id
 `Response:`
 
 {
@@ -85,7 +85,7 @@
 
 `Request:`
 
-###OPTIONS http://localhost:4567/users/1012 - check that user exists
+### OPTIONS http://localhost:4567/users/1012 - check that user exists
 `Response:`
 
 {
